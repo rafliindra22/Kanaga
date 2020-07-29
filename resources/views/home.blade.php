@@ -16,34 +16,34 @@
       <link rel="apple-touch-icon" href="#" />
       <!-- Bootstrap CSS -->
       <!-- <link rel="stylesheet" href="/assets/css/bootstrap.min.css" /> -->
-      <link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/bootstrap.min.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
 
       <!-- Pogo Slider CSS -->
       <!-- <link rel="stylesheet" href="/assets/css/pogo-slider.min.css" /> -->
-      <link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/pogo-slider.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ asset('css/pogo-slider.css') }}">
 
       <!-- Site CSS -->
       <!-- <link rel="stylesheet" href="/assets/css/style.css" /> -->
-      <link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/style.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
 
       <!-- Responsive CSS -->
       <!-- <link rel="stylesheet" href="/assets/css/responsive.css" /> -->
-      <link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/responsive.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ asset('css/responsive.css') }}">
 
       <!-- Custom CSS -->
       <!-- <link rel="stylesheet" href="/assets/css/custom.css" /> -->
-      <link rel="stylesheet" type="text/css" href="{{ asset('public/assets/css/custom.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ asset('css/custom.css') }}">
 
       <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="{{ ('https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js') }}"></script>
+      <script src="{{ ('https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js') }}"></script>
       <![endif]-->
    </head>
    <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
       <!-- LOADER -->
       <div id="preloader">
          <div class="loader">
-            <img src="{{ ('public/assets/images/loader.gif') }}" alt="#" />
+            <img src="{{ ('images/loader.gif') }}" alt="#" />
          </div>
       </div>
       <!-- END LOADER -->
@@ -65,11 +65,11 @@
                <div class="row">
                   <div class="col-sm-6">
                      <div class="logo_main">
-                        <a href="index.html"><img src="{{ ('public/assets/images/main_logo.png') }}" /></a>
+                        <a href="index.html"><img src="{{ ('images/main_logo.png') }}" /></a>
                      </div>
                   </div>
                   <div class="col-sm-6">
-                     <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn"><img src="{{ ('public/assets/images/menu_icon.png') }}"></button>
+                     <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn"><img src="{{ ('images/menu_icon.png') }}"></button>
                   </div>
                </div>
             </div>
@@ -79,8 +79,8 @@
          <div class="ulockd-home-slider">
             <div class="container-fluid">
                <div class="row">
-                  <div class="pogoSlider" id="js-main-slider">
-                     <!-- <div class="pogoSlider-slide" style="background-image:url(public/assets/images/slider_1.jpg);"> -->
+                  <!-- <div class="pogoSlider" id="js-main-slider">
+                     <div class="pogoSlider-slide" style="background-image:url(images/slider_1.jpg);">
                         <div class="container">
                            <div class="row">
                               <div class="col-md-12">
@@ -95,7 +95,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="pogoSlider-slide" style="background-image:url(public/assets/images/slider_1.jpg);">
+                     <div class="pogoSlider-slide" style="background-image:url(images/slider_1.jpg);">
                         <div class="container">
                            <div class="row">
                               <div class="col-md-12">
@@ -110,7 +110,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="pogoSlider-slide" style="background-image:url(public/assets/images/slider_1.jpg);">
+                     <div class="pogoSlider-slide" style="background-image:url(images/slider_1.jpg);">
                         <div class="container">
                            <div class="row">
                               <div class="col-md-12">
@@ -126,7 +126,7 @@
                         </div>
                      </div>
                   </div>
-                  <!-- .pogoSlider -->
+                  .pogoSlider -->
                </div>
             </div>
          </div>
@@ -147,8 +147,8 @@
                   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
                      <div class="full feature_box">
                          <div class="full icon">
-                            <img class="default-block" src="{{ ('public/assets/images/icon_1.png') }}" alt="#" />
-                            <img class="default-none" src="{{ ('public/assets/images/icon_1w.png') }}" alt="#" />
+                            <img class="default-block" src="{{ ('images/icon_1.png') }}" alt="#" />
+                            <img class="default-none" src="{{ ('images/icon_1w.png') }}" alt="#" />
                          </div>
                          <div class="full">
                             <h4>Link Building</h4>
@@ -161,8 +161,8 @@
                   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
                      <div class="full feature_box">
                          <div class="full icon">
-                            <img class="default-block" src="{{ ('public/assets/images/icon_2.png') }}" alt="#" />
-                            <img class="default-none" src="{{ ('public/assets/images/icon_2w.png') }}" alt="#" />
+                            <img class="default-block" src="{{ ('images/icon_2.png') }}" alt="#" />
+                            <img class="default-none" src="{{ ('images/icon_2w.png') }}" alt="#" />
                          </div>
                          <div class="full">
                             <h4>Monthly SEO Task</h4>
@@ -175,8 +175,8 @@
                   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
                      <div class="full feature_box">
                          <div class="full icon">
-                            <img class="default-block" src="{{ ('public/assets/images/icon_3.png') }}" alt="#" />
-                            <img class="default-none" src="{{ ('public/assets/images/icon_3w.png') }}" alt="#" />
+                            <img class="default-block" src="{{ ('images/icon_3.png') }}" alt="#" />
+                            <img class="default-none" src="{{ ('images/icon_3w.png') }}" alt="#" />
                          </div>
                          <div class="full">
                             <h4>On Page SEO</h4>
@@ -189,8 +189,8 @@
                   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
                      <div class="full feature_box">
                          <div class="full icon">
-                            <img class="default-block" src="{{ ('public/assets/images/icon_4.png') }}" alt="#" />
-                            <img class="default-none" src="{{ ('public/assets/images/icon_4w.png') }}" alt="#" />
+                            <img class="default-block" src="{{ ('images/icon_4.png') }}" alt="#" />
+                            <img class="default-none" src="{{ ('images/icon_4w.png') }}" alt="#" />
                          </div>
                          <div class="full">
                             <h4>Online marketing</h4>
@@ -230,7 +230,7 @@
                   </div>
                   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                      <div class="full text_align_center">
-                        <img class="img-responsive" src="{{ ('public/assets/images/icon_f1.png') }}" alt="#" />   
+                        <img class="img-responsive" src="{{ ('images/f1.png') }}" alt="#" />   
                       </div>
                   </div>
                </div>
@@ -259,7 +259,7 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="full text_align_center">
-                       <img class="img-responsive" src="{{ ('public/assets/images/video_img.jpg') }}" alt="#" />
+                       <img class="img-responsive" src="{{ ('images/video_img.jpg') }}" alt="#" />
                      </div>
                      <div class="full center">
                         <a class="readmore_bt" href="about.html">Read More</a>
@@ -314,36 +314,36 @@
 
                 <div class="col-sm-6 col-md-3 col-lg-3">
                    <div class="work_blog margin-top_30">
-                      <img class="img-responsive" src="{{ ('public/assets/images/blog1.jpg') }}" alt="#" />
+                      <img class="img-responsive" src="{{ ('images/blog1.jpg') }}" alt="#" />
                       <div class="hover_workblog">
-                          <img src="{{ ('public/assets/images/icon.png') }}" alt="#" />
+                          <img src="{{ ('images/icon.png') }}" alt="#" />
                       </div>
                    </div>
                 </div>
 
                 <div class="col-sm-6 col-md-3 col-lg-3">
                    <div class="work_blog margin-top_30">
-                      <img class="img-responsive" src="public/assets/images/blog2.jpg" alt="#" />
+                      <img class="img-responsive" src="{{ ('images/blog2.jpg') }}" alt="#" />
                       <div class="hover_workblog">
-                          <img src="{{ ('public/assets/images/search_icon.png') }}" alt="#" />
+                          <img src="{{ ('images/search_icon.png') }}" alt="#" />
                       </div>
                    </div>
                 </div>
 
                 <div class="col-sm-6 col-md-3 col-lg-3">
                    <div class="work_blog margin-top_30">
-                      <img class="img-responsive" src="{{ ('public/assets/images/blog3.jpg') }}" alt="#" />
+                      <img class="img-responsive" src="{{ ('images/blog3.jpg') }}" alt="#" />
                       <div class="hover_workblog">
-                          <img src="{{ ('public/assets/images/search_icon.png') }}" alt="#" />
+                          <img src="{{ ('images/search_icon.png') }}" alt="#" />
                       </div>
                    </div>
                 </div>
 
                 <div class="col-sm-6 col-md-3 col-lg-3">
                    <div class="work_blog margin-top_30">
-                      <img class="img-responsive" src="{{ ('public/assets/images/blog4.jpg') }}" alt="#" />
+                      <img class="img-responsive" src="{{ ('images/blog4.jpg') }}" alt="#" />
                       <div class="hover_workblog">
-                          <img src="{{ ('public/assets/images/search_icon.png') }}" alt="#" />
+                          <img src="{{ ('images/search_icon.png') }}" alt="#" />
                       </div>
                    </div>
                 </div>
@@ -353,7 +353,7 @@
          </div>
          <!-- end section -->
          <!-- section -->
-         <div class="section about_section layout_padding padding_top_0">
+         <!-- <div class="section about_section layout_padding padding_top_0">
             <div class="row">
                   <div class="col-md-12">
                      <div class="full">
@@ -363,9 +363,9 @@
                      </div>
                   </div>
                </div>
-         </div>
+         </div> -->
          <!-- section -->
-         <div class="section contact_section">
+         <!-- <div class="section contact_section">
             <div class="container-fluid">
                <div class="row">
                   <div class="col-md-6 theme_color_bg fc3726 padding_0">
@@ -412,7 +412,7 @@
                   </div>
                </div>
             </div>
-         </div>
+         </div> -->
          <!-- end section -->
          <!-- Start Footer -->
          <footer class="footer-box">
@@ -477,19 +477,19 @@
       </div>
       <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
       <!-- ALL JS FILES -->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
+      <script src="{{ asset('js/jquery.min.js') }}"></script>
+      <script src="{{ asset('js/popper.min.js') }}"></script>
+      <script src="{{ asset('js/bootstrap.min.js') }}"></script>
       <!-- ALL PLUGINS -->
-      <script src="js/jquery.magnific-popup.min.js"></script>
-      <script src="js/jquery.pogo-slider.min.js"></script>
-      <script src="js/slider-index.js"></script>
-      <script src="js/smoothscroll.js"></script>
-      <script src="js/form-validator.min.js"></script>
-      <script src="js/contact-form-script.js"></script>
-      <script src="js/isotope.min.js"></script>
-      <script src="js/images-loded.min.js"></script>
-      <script src="js/custom.js"></script>
+      <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
+      <script src="{{ asset('js/jquery.pogo-slider.min.js') }}"></script>
+      <script src="{{ asset('js/slider-index.js') }}"></script>
+      <script src="{{ asset('js/smoothscroll.js') }}"></script>
+      <script src="{{ asset('js/form-validator.min.js') }}"></script>
+      <script src="{{ asset('js/contact-form-script.js') }}"></script>
+      <script src="{{ asset('js/isotope.min.js') }}"></script>
+      <script src="{{ asset('js/images-loded.min.js') }}"></script>
+      <script src="{{ asset('js/custom.js') }}"></script>
       <!-- End Google Map -->
       <script>
          $(document).ready(function() {
@@ -501,7 +501,7 @@
          });
       </script>
       <!-- google map js -->
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <script src="{{ ('https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap') }}"></script>
       <!-- end google map js -->
    </body>
 </html>
